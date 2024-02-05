@@ -16,25 +16,25 @@ phase = 1
 start = 0
 
 # 이미지 지정
-background = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\background.png")
-background1 = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\background1.png")
-gb = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\golden_banana.png")
-gch = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\golden_cherry.png")
-gc = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\golden_coin.png")
-gw = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\golden_watermelon.png")
-sb = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\silver_banana.png")
-sch = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\silver_cherry.png")
-sc = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\silver_coin.png")
-sw = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\silver_watermelon.png")
-cb = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\copper_banana.png")
-cch = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\copper_cherry.png")
-cc = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\copper_coin.png")
-cw = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\copper_watermelon.png")
-jack = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\jackpot.png")
-poop = pygame.image.load("C:\\Users\\USER\\Desktop\\파칭코드\\image\\poop.png")
+background = pygame.image.load("./image/background.png")
+background1 = pygame.image.load("./image/background1.png")
+gb = pygame.image.load("./image/golden_banana.png")
+gch = pygame.image.load("./image/golden_cherry.png")
+gc = pygame.image.load("./image/golden_coin.png")
+gw = pygame.image.load("./image/golden_watermelon.png")
+sb = pygame.image.load("./image/silver_banana.png")
+sch = pygame.image.load("./image/silver_cherry.png")
+sc = pygame.image.load("./image/silver_coin.png")
+sw = pygame.image.load("./image/silver_watermelon.png")
+cb = pygame.image.load("./image/copper_banana.png")
+cch = pygame.image.load("./image/copper_cherry.png")
+cc = pygame.image.load("./image/copper_coin.png")
+cw = pygame.image.load("./image/copper_watermelon.png")
+jack = pygame.image.load("./image/jackpot.png")
+poop = pygame.image.load("./image/poop.png")
 
 # 노래
-button_click = pygame.mixer.Sound("C:\\Users\\USER\\Desktop\\파칭코드\\music\\buttonclick.wav")
+button_click = pygame.mixer.Sound("./music/buttonclick.wav")
 
 # 모양별 값 지정
 jackpot = 0
